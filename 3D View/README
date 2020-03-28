@@ -1,0 +1,16 @@
+This sample code is designed for assignment3 of CS460/560
+OS: Linux
+---------------------------------------------------------
+
+In case you didn't use glut for previous assignments, I attached library files for freeglut in 'dependencies' folder.
+If you never have glut installed in your system path, please include library search path by:
+
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/dependencies/lib
+
+We run above command just to make sure the shared library (libglut.so) is linked to the project. 
+
+
+TO BUILD and RUN:
+
+$ make
+$./project
